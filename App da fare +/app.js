@@ -15,4 +15,4 @@ function write_todo(e){
     li.appendChild(buttonDelete);
     ul.appendChild(li);
     e.preventDefault();
-}rite_to
+}
