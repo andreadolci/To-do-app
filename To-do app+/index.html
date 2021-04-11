@@ -12,12 +12,13 @@
     <div class="container">
         <div class="title-container">
             <h1>TO DO APP +</h1>
-        </div><br>
+        </div>
+        <br>
         <div class="form-container">
             <div class="input-container">
-                <form name="todo">
-                <input type="text" name="todo" placeholder="Inserisci obiettivo"> <button onclick="write_todo()"><img src="../images/verified.jpg" alt="verifica"></button>
-            </form>
+                <form name="todo-form">
+                    <input type="text" name="todo" id="todo" placeholder="Inserisci obiettivo"> <button onclick="write_todo()"><img src="../images/verified.jpg" alt="verifica"></button>
+                </form>
             </div>
             <div class="menu-container">
                 <select name="menu">
@@ -28,10 +29,12 @@
                     <option value="altro">To-do altro</option>
                 </select>
             </div>
-            
-        </div><br>
+        </div>
+        <br>
         <div class="todo-container">
-         
+            <ul id="todo-ul">
+
+            </ul>
         </div>
     </div>
     <script src="app.js"></script>    
