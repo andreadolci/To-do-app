@@ -1,6 +1,9 @@
 * {
 	font-family: Sans serif;
 }
+body {
+	background-color: black;
+}
 .container {
 	background: rgb(131, 58, 180);
 	background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
@@ -10,6 +13,7 @@
 	width: 75%;
 	height: 500px;
 	margin: 0 auto;
+	box-shadow: 10px 10px 20px greenyellow;
 }
 .title-container {
 	margin-top: 10px;
@@ -19,6 +23,7 @@
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 select {
 	background-color: lightgray;
@@ -29,4 +34,20 @@ input {
 }
 img {
 	width: 10px;
+}
+.todo-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul {
+	list-style: none;
+}
+.todo-li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 500px;
+	background-color: white;
+	box-shadow: 5px 5px 10px black;
 }
